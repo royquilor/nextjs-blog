@@ -6,6 +6,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@next/font": "^13.0.7",
     "clsx": "^1.2.1",
     "date-fns": "^2.29.3",
     "gray-matter": "^4.0.3",

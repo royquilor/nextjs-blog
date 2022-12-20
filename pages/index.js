@@ -24,7 +24,7 @@ export default function Home({ allPostsData }) {
         </div>
       </section>
       <section className="bg-blue-50">
-        <div class="container mx-auto py-44">
+        <div className="container mx-auto py-44">
           <h2 className="text-base uppercase font-medium tracking-widest mb-20">Blog</h2>
           <ul className="flex flex-col gap-y-20">
             {allPostsData.map(({ id, date, title }) => (
